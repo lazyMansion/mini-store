@@ -60,7 +60,7 @@ class File extends Driver
     {
         // 创建项目缓存目录
         try {
-            if (!is_dir($this->options['path']) && mkdir($this->options['path'], 0755, true)) {
+            if (!is_dir($this->options['path']) && mkdir($this->options['path'], 0777, true)) {
                 return true;
             }
         } catch (\Exception $e) {
