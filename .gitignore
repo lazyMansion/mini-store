@@ -1,5 +1,0 @@
-#不监听依赖
-/runtime/cache/*
-/runtime/log/*
-/runtime/temp/*
-!/runtime/
